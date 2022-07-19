@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Health App</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+
+        <script
+            src="https://kit.fontawesome.com/193f3c6547.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div id="tracking-area">
+            <div class="inner-tracking title">
+                <h1 class="health">How are you feeling now?</h1>
+            </div>
+            <div class="inner-tracking main">
+                <div class="child-tracking">
+                    <i class="fas fa-heartbeat"></i>
+                    <h5>Heart Rate</h5>
+                    <p><span class="counter" data-target="75">0</span> bpm</p>
+                </div>
+                <div class="child-tracking">
+                    <i class="fas fa-moon"></i>
+                    <h5>Sleep</h5>
+                    <p><span class="counter" data-target="8">0</span> hrs</p>
+                </div>
+                <div class="child-tracking">
+                    <i class="fas fa-cocktail"></i>
+                    <h5>Water</h5>
+                    <p><span class="counter" data-target="10">0</span> glass</p>
+                </div>
+                <div class="child-tracking">
+                    <i class="fas fa-walking"></i>
+                    <h5>Steps</h5>
+                    <p><span class="counter" data-target="11000">0</span></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
